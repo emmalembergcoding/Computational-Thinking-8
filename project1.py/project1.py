@@ -24,6 +24,7 @@ print(f"danggggg {animal}are tuff asllll")
 print ("")
 print ("")
 print ("")
-print ("based on everything you told me we are making a story!")print ("")
+print ("based on everything you told me we are making a story!")
+print ("")
 print(f"in sunset {name} was skipping in {vacation} and just got a charlie in the chocolate factory gold ticket to move to {city}! {name} wakes up surrounded by fluffy {animal} and went all {animal} whisperer and bonded with them")
 
