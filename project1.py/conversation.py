@@ -2,13 +2,13 @@
 from utils import *
 player_name = input("What is your name?    ")
 
-set_background("moon")
+set_background("capybara_sunset")
 
-s1 = create_sprite("fish", -200, 0)
-s2 = create_sprite("stitch", 200, 0)
+s1 = create_sprite("lebron(1)", -200, 0)
+s2 = create_sprite("fox", 200, 0)
 
-s1.color("blue")
-s2.color("dark red")
+s1.color("pink")
+s2.color("white")
 time.sleep(5)
 
 s1.write("Where are we?",font = ("Arial", 20, "normal"))
@@ -19,7 +19,7 @@ s1.clear()
 window.update()
 time.sleep(1)
 
-s2.write("On the moon!",font = ("Arial", 20, "normal"))
+s2.write("Inside a capybra sunsets!",font = ("Arial", 20, "normal"))
 window.update()
 time.sleep(1)
 
@@ -35,6 +35,13 @@ s1.clear()
 s1.write("Have you seen them?",font = ("Arial", 20, "normal"))
 window.update()
 time.sleep(1)
+
+s1.clear()
+s2.write("Check New York City! They love to go there.", font = ("Arial", 12, "normal"))
+window.update ()
+time.sleep(1)
+
+set_background("nyc")
 
 ######################################################################
 # Section 2 - Keeping the window open (DON'T CHANGE!!)

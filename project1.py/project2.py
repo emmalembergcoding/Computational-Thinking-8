@@ -34,11 +34,11 @@ print ("")
 print ("")
 
 answer3 = input("What is your favorite color A: orange B: black C: yellow?")
-if answer3 == "A" or "a":
+if answer3 == "A" or answer3 == "a":
     orangutan_points += 1
-if answer3 == "B" or "b":
+if answer3 == "B" or answer3 == "b":
     chimpanzee_points += 1
-elif answer3 == "C" or "c" :
+elif answer3 == "C" or answer3 == "c" :
     capuchin_points += 1
 print ("")
 print ("")
@@ -46,11 +46,11 @@ print ("")
 print ("")
 
 answer4 = input ("Which food is your favorite? A: Bananas B: Coconut C: Dragonfruit ")
-if answer4 == "A" or "a":
+if answer4 == "A" or answer4 == "a":
     orangutan_points += 1
-if answer4 == "B" or "b" :
+if answer4 == "B" or answer4 == "b" :
     chimpanzee_points += 1
-if answer4 == "C" or "c":
+if answer4 == "C" or answer4 == "c":
     capuchin_points += 1
 
 print ("")
@@ -61,11 +61,11 @@ print ("")
 
 
 answer5 = input ("What is your ideal vacation A: LA B: Greece C: South Korea?")
-if answer5 == "A" or "a":
+if answer5 == "A" or answer5 == "a":
     orangutan_points += 5
-if answer5 == "B" or "b":
+if answer5 == "B" or answer5 == "b":
     capuchin_points += 1
-if answer5 == "C" or "c":
+if answer5 == "C" or answer5 == "c":
     chimpanzee_points += 1
 print ("")
 print ("")
@@ -73,11 +73,11 @@ print ("")
 print ("")
 
 answer6 = input ("Pick a drink A: Cannon ball starbucks drink B: Lemonade C:Coca cola?")
-if answer6 == "A" or "a":
+if answer6 == "A" or answer6 == "a":
     orangutan_points += 2
-if answer6 == "B" or "b":
+if answer6 == "B" or answer6 == "b":
     chimpanzee_points += 2
-if answer6 == "C" or "c":
+if answer6 == "C" or answer6 == "c":
     capuchin_points += 2
 print ("")
 print ("")
