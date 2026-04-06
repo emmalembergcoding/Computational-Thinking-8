@@ -29,6 +29,7 @@ for i in range(33):
     x2 += 10
     x3 += 22
     x4 += 8
+#Rory is faster because her speed is 25 and that is higher than the rest of the numbers
 
     t1.goto(x1, y1)
     t2.goto(x2, y2)
