@@ -83,7 +83,12 @@ print ("")
 print ("")
 print ("")
 print ("")
-print (f"Your score is {orangutan_points} orangutan points, {chimpanzee_points} chimpanzee points, and {capuchin_points} capuchin points")
+if orangutan_points > chimpanzee_points and orangutan_points > capuchin_points:
+    print("You are most alike an orangutan!")
+elif chimpanzee_points > capuchin_points and chimpanzee_points > capuchin_points:
+    print("You are most alike an chimpanzee monkey!")
+elif capuchin_points > orangutan_points and capuchin_points > chimpanzee_points:
+    print("You are most alike a capuchin monkey")
 
 
 
