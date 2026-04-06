@@ -25,10 +25,10 @@ t4 = create_sprite("circusmonk",x4,y4)
 # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # TODO - explain here which sprites are faster or slower
 for i in range(33):
-    x1 += 12
-    x2 += 5
-    x3 += 9
-    x4 += 6
+    x1 += 25
+    x2 += 10
+    x3 += 22
+    x4 += 8
 
     t1.goto(x1, y1)
     t2.goto(x2, y2)
